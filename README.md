@@ -1,6 +1,6 @@
-# NNX - A Neural Network Library using JAX
+# jaxon - A Neural Network Library using JAX
 
-NNX is a Python library for building and training neural networks, implemented using the JAX library for high-performance machine learning research. Leveraging the power of JAX, JAX-NN provides a flexible and efficient framework for defining, training, and running neural networks. The library includes a range of predefined layers, activation functions, and utilities to facilitate the development of custom neural network architectures.
+jaxon is a Python library for building and training neural networks, implemented using the JAX library for high-performance machine learning research. Leveraging the power of JAX, JAX-NN provides a flexible and efficient framework for defining, training, and running neural networks. The library includes a range of predefined layers, activation functions, and utilities to facilitate the development of custom neural network architectures.
 
 ## Core Features
 
@@ -24,17 +24,17 @@ NNX is a Python library for building and training neural networks, implemented u
 ### Example Usage
 
 ```python
-import nnx
+import jaxon
 from jax import random
 
 # Define a simple neural network
-class SimpleNN(nnx.Sequential):
+class SimpleNN(jaxon.Sequential):
     def __init__(self):
         super().__init__(
-            nnx.Linear(10, 5), 
-            nnx.ReLU(), 
-            nnx.Linear(5, 1), 
-            nnx.Sigmoid()
+            jaxon.Linear(10, 5), 
+            jaxon.ReLU(), 
+            jaxon.Linear(5, 1), 
+            jaxon.Sigmoid()
         )
 
 # Initialize the model
@@ -47,3 +47,18 @@ dummy_input = random.normal(rng, (1, 10))
 # Forward pass
 output = model(dummy_input)
 print(output)
+
+```
+
+# MNIST Example
+
+Please check the mnist_example.ipynb file for a simple example of training a neural network on the MNIST dataset using jaxon.
+
+# Installation
+
+Please use the file in dist folder to install using pip
+
+
+
+# References
+<https://docs.kidger.site/equinox/>

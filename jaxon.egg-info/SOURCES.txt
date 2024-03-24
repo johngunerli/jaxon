@@ -1,0 +1,7 @@
+README.md
+setup.py
+jaxon.egg-info/PKG-INFO
+jaxon.egg-info/SOURCES.txt
+jaxon.egg-info/dependency_links.txt
+jaxon.egg-info/requires.txt
+jaxon.egg-info/top_level.txt
