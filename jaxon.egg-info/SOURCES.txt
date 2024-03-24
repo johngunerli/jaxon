@@ -1,5 +1,7 @@
 README.md
 setup.py
+jaxon/__init__.py
+jaxon/jaxon.py
 jaxon.egg-info/PKG-INFO
 jaxon.egg-info/SOURCES.txt
 jaxon.egg-info/dependency_links.txt

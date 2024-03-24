@@ -7,4 +7,3 @@ setup(
     install_requires=["jax"],
     author="John Gunerli",
 )
-
