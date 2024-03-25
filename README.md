@@ -1,6 +1,6 @@
 # jaxon - A Neural Network Library using JAX
 
-jaxon is a Python library for building and training neural networks, implemented using the JAX library for high-performance machine learning research. Leveraging the power of JAX, JAX-NN provides a flexible and efficient framework for defining, training, and running neural networks. The library includes a range of predefined layers, activation functions, and utilities to facilitate the development of custom neural network architectures.
+jaxon is a Python library for building and training neural networks, implemented using the JAX library for high-performance machine learning research. Leveraging the power of JAX, jaxon provides a flexible and efficient framework for defining, training, and running neural networks. The library includes a range of predefined layers, activation functions, and utilities to facilitate the development of custom neural network architectures.
 
 ## Core Features
 
